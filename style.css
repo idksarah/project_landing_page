@@ -1,0 +1,218 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.header,
+.introduction,
+.information,
+.quote,
+.sign_up,
+.footer {
+  padding: 0px 130px 0px 130px;
+  justify-content: center;
+}
+
+.header,
+.introduction {
+  background-color:#0f0f0f;
+  color: #e0decf;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 13px;
+}
+
+.header_links {
+  color:#c0c3ba;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.introduction { /*beginning of introduction section*/
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+
+.introduction_text {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.introduction_image {
+  margin-left: 50px;
+  height: 100px;
+  width: auto;
+  align-self: center;
+}
+
+.introduction_button {
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #f2f1e7;
+  padding: 5px 15px 5px 15px;
+}
+
+.introduction_button_text {
+  color: #202020;
+}
+
+.information { /*beginning of information (albums & singles) section*/
+  background-color: #f2f1e7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.information_title {
+  color: #202020;
+}
+
+.album_cover { 
+  height: 150px;
+  width: auto;
+}
+
+.album_title {
+  font-weight: 800;
+}
+
+.albums {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.bleed_magic,
+.choke,
+.do_it_all_the_time,
+.razzmatazz,
+.album_title {
+  width: 150px;
+  text-align: center;
+  color: #282727;
+  font-size: 13px;
+}
+
+.quote { /*beginning of quote section*/
+  background-color: #e0decf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.quote_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: end;
+}
+
+.from_the_gallows_quote {
+  color: #282727;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: -5px;
+}
+
+.from_the_gallows_author {
+  color: #202020;
+  font-weight: 800;
+}
+
+.sign_up { /*beginning of sign_up section*/
+  background-color: #f2f1e7;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign_up_text_container {
+  padding-right: 40px;
+}
+
+.sign_up_container {
+  display: flex;
+  align-items: center;
+  background-color: #e76a67; /* d8373c for the idkhow red and e76a67 for the choke red */
+  padding: 10px 40px 10px 40px;
+  text-wrap: wrap;
+  margin: 25px;
+}
+
+.sign_up_button {
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  background-color: #f2f1e7;
+}
+
+.sign_up_button_text {
+  color:#202020;
+}
+
+.sign_up_title {
+  font-size: 17px;
+  color:#202020;
+}
+
+.sign_up_information {
+  color: #f2f1e7;
+  font-size: 13px;
+}
+
+.footer { /*beginning of footer section*/
+  display: flex;
+  background-color:#0f0f0f;
+  color: #e0decf;
+  height: 60px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.TELLEXX_logo {
+  position: fixed;
+  height: 40px;
+  width: auto;
+  bottom: 10px;
+  right: 10px;
+}
+
+
+/* pls streamline ur css rules later plsplspls */
