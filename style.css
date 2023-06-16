@@ -29,13 +29,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 3px;
+  margin: 0;
 }
 
 .links {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 a {
@@ -146,7 +148,7 @@ ul {
 .from_the_gallows_quote {
   color: #282727;
   font-style: italic;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: -5px;
 }
 
@@ -174,6 +176,7 @@ ul {
   padding: 10px 40px 10px 40px;
   text-wrap: wrap;
   margin: 25px;
+  border-radius: 5px;
 }
 
 .sign_up_button {
