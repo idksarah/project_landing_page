@@ -202,9 +202,8 @@ ul {
   display: flex;
   background-color:#0f0f0f;
   color: #e0decf;
-  height: 60px;
+  height: 5vh;
   align-items: center;
-  flex: 1;
 }
 
 .TELLEXX_logo {
