@@ -1,1 +1,1 @@
-This is a repository created to store the files of a project using CSS and HTML from The Odin Project.
+A basic webpage using lyrics or images from the band iDKHOW as fillers.
